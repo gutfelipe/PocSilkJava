@@ -11,6 +11,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 
 import javax.imageio.ImageIO;
 
@@ -37,7 +39,7 @@ public class SalvarEvidencias {
 	}
 
 	public void takeScreenshot(String step) throws IOException, HeadlessException, AWTException {
-		String caminhoCompleto = String.format("%s%s-%s.png", caminhoDir, ct, numeroPrint);
+		String caminhoCompleto = String.format("%s%s - %s.png", caminhoDir, ct, numeroPrint);
 
 		caminhoDirEDescricaoStep.put(caminhoCompleto, step);
 
@@ -60,8 +62,11 @@ public class SalvarEvidencias {
 		// Se você tiver um recuo de capítulo
 		int indentation = 0;
 
-		for (String caminho : caminhoDirEDescricaoStep.keySet()) {
-			String step = caminhoDirEDescricaoStep.get(caminho);
+		//ordenar HashMap
+		Map<String, String> map = new TreeMap<>(caminhoDirEDescricaoStep);
+
+		for (String caminho : map.keySet()) {
+			String step = map.get(caminho);
 
 			document.add(new Paragraph(step));
 
