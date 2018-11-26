@@ -1,0 +1,6 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="WebBrowser" locator="//BrowserApplication" urlPattern="">
+    <ObjectMapEntry id="Barra de endereço e de pesquisa" locator="//AccessibleControl[@caption=&apos;Barra de endereço e de pesquisa&apos;]"/>
+    <ObjectMapEntry id="painel" locator="//AccessibleControl[@role=&apos;painel&apos;][5]"/>
+  </ObjectMapEntry>
+</ObjectMap>

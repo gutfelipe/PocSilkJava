@@ -1,0 +1,23 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="demo_cscart_com" locator="//BrowserApplication" urlPattern="*demo.cs-cart.com*">
+    <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="100g Pants" locator="//BDI[@textContents=&apos;100g Pants&apos;][2]"/>
+      <ObjectMapEntry id="18-55mm Portrait Len" locator="//BDI[@textContents=&apos;18-55mm Portrait Len*&apos;][2]"/>
+      <ObjectMapEntry id="18-55mm Portrait Len A" locator="//A[@textContents=&apos;18-55mm Portrait Len*&apos;]"/>
+      <ObjectMapEntry id="2011 Ice Queen" locator="//BDI[@textContents=&apos;2011 Ice Queen&apos;][2]"/>
+      <ObjectMapEntry id="2011 Ice Queen A" locator="//A[@textContents=&apos;2011 Ice Queen&apos;]"/>
+      <ObjectMapEntry id="button_cart_180" locator="//BUTTON[@id=&apos;button_cart_180&apos;]"/>
+      <ObjectMapEntry id="button_cart_232" locator="//BUTTON[@id=&apos;button_cart_232&apos;]"/>
+      <ObjectMapEntry id="Continue shopping" locator="//A[@textContents=&apos;Continue shopping&apos;]"/>
+      <ObjectMapEntry id="Demo store panel" locator="//H4[@textContents=&apos;Demo store panel&apos;]"/>
+      <ObjectMapEntry id="det_img_12" locator="//IMG[@id=&apos;det_img_12&apos;]"/>
+      <ObjectMapEntry id="det_img_180" locator="//IMG[@id=&apos;det_img_180&apos;]"/>
+      <ObjectMapEntry id="det_img_232" locator="//IMG[@id=&apos;det_img_232&apos;]"/>
+      <ObjectMapEntry id="My cart" locator="//SPAN[@textContents=&apos;My cart&apos;]"/>
+      <ObjectMapEntry id="search_input" locator="//INPUT[@id=&apos;search_input&apos;]"/>
+      <ObjectMapEntry id="ty-icon-search" locator="//I[@class=&apos;ty-icon-search&apos;]"/>
+      <ObjectMapEntry id="ty-logo-container__i" locator="//IMG[@class=&apos;ty-logo-container__i*&apos;]"/>
+      <ObjectMapEntry id="View cart" locator="//A[@textContents=&apos;View cart&apos;]"/>
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
